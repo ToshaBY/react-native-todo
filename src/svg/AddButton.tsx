@@ -2,7 +2,7 @@ import * as React from "react"
 import Svg, {SvgProps, Path} from "react-native-svg"
 import {memo} from "react"
 
-export const MySvg = (props: SvgProps) => (
+export const AddButton = (props: SvgProps) => (
     <Svg
         {...props}
         width={36}
@@ -17,4 +17,4 @@ export const MySvg = (props: SvgProps) => (
     </Svg>
 )
 
-const Memo = memo(MySvg)
+const Memo = memo(AddButton)
